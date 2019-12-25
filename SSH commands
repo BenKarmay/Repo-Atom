@@ -1,0 +1,31 @@
+# SSH commands
+
+
+Go to directory:
+cd ~/name
+
+ssh keys stored on OSX in:
+~/.ssh
+
+Remove ssh key
+rm keyname_rsa
+
+Find and open ssh key
+cd ~/.ssh
+open .
+
+OR
+cat .ssh/id_rsa.pub
+cat ./is_rsa.pub
+
+Raspberrypi tips
+
+
+Default username:
+pi
+Default password:
+raspberry
+
+
+sudo apt update
+sudo apt full-upgrade
